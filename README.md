@@ -4,4 +4,4 @@
 - modern
 - fast
 
-[look at my site](https://valeriilisitsyn.github.io/VENCE/index.html)
+[look at my site]
