@@ -1,1 +1,1 @@
-# VENCE the site from (studies)
+# VENCE the site (from studies)
