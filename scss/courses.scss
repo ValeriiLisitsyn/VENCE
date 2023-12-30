@@ -72,10 +72,12 @@ html {
 
 	&__title {
 		max-width: 37.8125rem;
-		margin: 200px 0px;
+		margin: 200px auto;
 		font-size: 1.5625rem;
 		font-weight: 700;
 		line-height: 1.6;
+		text-align: center;
+
 
 		& span {
 			display: block;
