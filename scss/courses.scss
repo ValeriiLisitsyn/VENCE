@@ -450,27 +450,28 @@ html {
 	&__spoiler {
 		cursor: pointer;
 		position: relative;
+		margin: 0px 10px 0px;
 
 		&::before {
 			content: '';
 			z-index: 4;
-			left: -30px;
-			top: 12.5px;
+			left: -20px;
+			top: 12px;
 			position: absolute;
-			width: 15px;
-			height: 2px;
+			width: 7px;
+			height: 1px;
 			background-color: #212529;
 			transform: rotate(90deg);
 		}
 
 		&::after {
 			content: '';
-			left: -22.5px;
-			top: 5.5px;
+			left: -17px;
+			top: 9px;
 			position: absolute;
 			z-index: 4;
-			width: 2px;
-			height: 15px;
+			width: 1px;
+			height: 7px;
 			background-color: #212529;
 			transform: rotate(90deg);
 		}
