@@ -35,7 +35,11 @@ if (burger) {
 		burger.classList.toggle("_active");
 		navigation.classList.toggle("_active");
 		document.body.classList.toggle("_lock");
-		const isBodyOverflowHidden = document.body.classList.contains("_lock");
-		document.body.style.overflowY = isBodyOverflowHidden ? 'hidden' : 'auto';
+		if (document.body.classList.contains("_lock")) {
+
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
+		}
 	})
 }
