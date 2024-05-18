@@ -480,7 +480,7 @@ html {
 		display: block;
 		position: relative;
 		padding: 0px 0px 63.62%;
-		transition: all 0.5s;
+		transition: all 0.3s;
 
 		& img {
 			border-radius: 5px;
@@ -493,7 +493,7 @@ html {
 		}
 
 		&:hover {
-			transition: all 0.5s;
+			transition: all 0.3s;
 			scale: 1.012;
 		}
 	}
