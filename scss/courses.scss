@@ -531,7 +531,7 @@ html {
 	&__image {
 		position: relative;
 		padding: 0px 0px 69.7%;
-		transition: all 0.5s;
+		transition: all 0.2s;
 
 		& img {
 			border-radius: 5px;
@@ -544,8 +544,8 @@ html {
 		}
 
 		&:hover {
-			transition: all 0.5s;
-			padding: 0px 0px 72%;
+			transition: all 0.2s;
+			scale: 1.015;
 			border-radius: 5px;
 		}
 	}
