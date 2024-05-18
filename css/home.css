@@ -472,7 +472,7 @@ html {
   display: block;
   position: relative;
   padding: 0px 0px 63.62%;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .item__image img {
   border-radius: 5px;
@@ -485,8 +485,8 @@ html {
      object-fit: cover;
 }
 .item__image:hover {
-  transition: all 0.5s;
-  padding: 0px 0px 65%;
+  transition: all 0.3s;
+  scale: 1.012;
   border-radius: 5px;
 }
 .item__date {
